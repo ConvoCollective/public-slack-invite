@@ -1,3 +1,26 @@
+body {
+  text-align: center;
+}
+
+#logo {
+  width: 100%;
+}
+
+.form {
+  width: 500px;
+  margin: 50px auto 50px auto;
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('LeagueSpartan-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('LeagueSpartan-Bold.woff2') format('woff') /* Pretty Modern Browsers */;
+}
+
+h1 {
+  font-family: "League Spartan";
+}
+
 #ngw-entry-content #form-wrapper {
   width: 65% !important;
   margin: 20px auto;

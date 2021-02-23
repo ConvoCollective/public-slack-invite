@@ -4,49 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Join Fauna's Community Slack</title>
+    <title>Conversational Collective Slack</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <link href="https://fauna.com/assets/pardot/pardot-lean-style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
     <script type="text/javascript" src="/script.js"></script>
   </head>
 
   <body class="non-gated">
-    <div class="bg-wrapper">  </div>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <header class="logo-header"><div class="container">
+    <header class="logo-header">
+      <div class="container">
           <div class="row">
-              <div class="col-md-12 vcenter">
-                 <a href="http://www.fauna.com" class="scrollto">
-                    <div class="logo">
-                         <img title="FaunaDB Logo" src="https://fauna.com/assets/pardot/img/Fauna_logo_white_web.png"></div>
-                </a>
-            </div><!-- col-md-9 -->
+              <div class="logo">
+                 <img title="Convo Collective Logo" src="./logo.png" id="logo">
+              </div>
           </div><!-- row -->
       </div><!-- container -->
     </header>
     <main class="container">
-      <div class="row vpadding ngw-wrapper">
-        <div id="ngw-entry-content">
-          <div class="editable title">
-            <h1>Join Fauna's Community Slack</h1>
-          </div>
-          <div id="flash-wrapper">
-          </div>
-          <div class="editable">
-            <div id="form-wrapper" class="col-md-12 clearfix">
-              <div class="editable clearfix">
-                <form class="form" method="post" action="/.netlify/functions/request-slack-invite">
-                  <label>Email address to send invitation: </label>
-                  <input name="email" type="email" />
-                  <input type="submit" />
-                </form>
-              </div>
-            </div>
-            <p>
-              If you are already a member, <a href="https://fauna-community.slack.com/">click here to sign in.</a>
-            </p>
-          </div>
-        </div>
+      <div class="row">
+        <h1>Join Conversational Collective's Slack</h1>
+
+        <div id="flash-wrapper"></div>
+
+        <form class="form" method="post" action="/.netlify/functions/request-slack-invite">
+          <input placeholder="Enter email address" name="email" type="email" />
+          <input class="button primary" type="submit" value="Send invite" />
+        </form>
+
+        <p>
+          If you are already a member, <a href="https://convocollective.slack.com/">click here to sign in.</a>
+        </p>
       </div>
     </main>
   </body>
