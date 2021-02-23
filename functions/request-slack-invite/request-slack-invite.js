@@ -10,7 +10,7 @@ exports.handler = async (event, context) => {
     const formData = parse(formString)
     const email = formData.email.trim();
     const baseURL = "https://slack.com/api/users.admin.invite"
-    const toSlack = `email=${encodeURIComponent(email)}&token=${process.env.SLACK_LEGACY_TOKEN}&set_active=true`;
+    const toSlack = `email=${encodeURIComponent(email)}&token=${process.env.SLACK_OAUTH_TOKEN}&set_active=true`;
     const response = await axios.get(`${baseURL}?${toSlack}`)
     console.log(response.data);
     if (response.status !== 200) {

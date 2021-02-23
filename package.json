@@ -1,0 +1,22 @@
+{
+  "name": "public-slack-invite",
+  "version": "1.0.0",
+  "description": "The Conversational Collective community Slack invite page.",
+  "main": "public/index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConvoCollective/public-slack-invite.git"
+  },
+  "author": "Matt Buck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConvoCollective/public-slack-invite/issues"
+  },
+  "homepage": "https://github.com/ConvoCollective/public-slack-invite#readme"
+}
