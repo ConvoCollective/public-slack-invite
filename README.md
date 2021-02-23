@@ -5,7 +5,7 @@ A Slack invite generator service for the Conversational Collective Slack. You ca
 ## How to use (1 click)
 
 Click this to fork and deploy
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-labs/vanilla-html-example)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ConvoCollective/public-slack-invite)
 
 ## How to use (manual)
 
