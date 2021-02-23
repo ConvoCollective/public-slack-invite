@@ -11,6 +11,11 @@ body {
   margin: 50px auto 50px auto;
 }
 
+input.button.primary {
+  background-color: #C6187B;
+  color: white;
+}
+
 @font-face {
   font-family: 'League Spartan';
   src: url('LeagueSpartan-Bold.woff2') format('woff2'), /* Super Modern Browsers */
